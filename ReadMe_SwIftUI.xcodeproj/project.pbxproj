@@ -11,6 +11,11 @@
 		F8380B3F275E880F001CF42B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8380B3E275E880F001CF42B /* ContentView.swift */; };
 		F8380B41275E8810001CF42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8380B40275E8810001CF42B /* Assets.xcassets */; };
 		F8380B44275E8810001CF42B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8380B43275E8810001CF42B /* Preview Assets.xcassets */; };
+		F8380B4B275E8AFA001CF42B /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8380B4A275E8AFA001CF42B /* Book.swift */; };
+		F8380B4E275E8C05001CF42B /* BookViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8380B4D275E8C05001CF42B /* BookViews.swift */; };
+		F8380B50275E9856001CF42B /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8380B4F275E9856001CF42B /* Library.swift */; };
+		F8380B52275E9D26001CF42B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8380B51275E9D26001CF42B /* DetailView.swift */; };
+		F8380B54275EAF65001CF42B /* PHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8380B53275EAF65001CF42B /* PHPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F8380B3E275E880F001CF42B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8380B40275E8810001CF42B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8380B43275E8810001CF42B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8380B4A275E8AFA001CF42B /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		F8380B4D275E8C05001CF42B /* BookViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViews.swift; sourceTree = "<group>"; };
+		F8380B4F275E9856001CF42B /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		F8380B51275E9D26001CF42B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F8380B53275EAF65001CF42B /* PHPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				F8380B3C275E880F001CF42B /* ReadMe_SwIftUIApp.swift */,
-				F8380B3E275E880F001CF42B /* ContentView.swift */,
+				F8380B4C275E8BEC001CF42B /* Views */,
+				F8380B4A275E8AFA001CF42B /* Book.swift */,
+				F8380B53275EAF65001CF42B /* PHPickerViewController.swift */,
+				F8380B4F275E9856001CF42B /* Library.swift */,
 				F8380B40275E8810001CF42B /* Assets.xcassets */,
 				F8380B42275E8810001CF42B /* Preview Content */,
 			);
@@ -65,6 +78,16 @@
 				F8380B43275E8810001CF42B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8380B4C275E8BEC001CF42B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8380B3E275E880F001CF42B /* ContentView.swift */,
+				F8380B4D275E8C05001CF42B /* BookViews.swift */,
+				F8380B51275E9D26001CF42B /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8380B3F275E880F001CF42B /* ContentView.swift in Sources */,
+				F8380B52275E9D26001CF42B /* DetailView.swift in Sources */,
 				F8380B3D275E880F001CF42B /* ReadMe_SwIftUIApp.swift in Sources */,
+				F8380B50275E9856001CF42B /* Library.swift in Sources */,
+				F8380B4B275E8AFA001CF42B /* Book.swift in Sources */,
+				F8380B54275EAF65001CF42B /* PHPickerViewController.swift in Sources */,
+				F8380B4E275E8C05001CF42B /* BookViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
